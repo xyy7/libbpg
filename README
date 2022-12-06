@@ -1,3 +1,8 @@
+* Because I'm not root, I modify "Makefile:prefix=~/local".
+* When I use the command 'bpgenc' in my environment, the program stops at "libbpg-0.9.8/x265/source/encoder:385 delete [] m_threadpool". So I remove it, and then the program can work but not to destroy the m_threadpool memory when running.
+
+
+======================================
 BPG Image library and utilities
 -------------------------------
 
